@@ -15,12 +15,19 @@ p {
 }
 #introcard {
   margin-top: 110px;
-  margin-bottom: 95px;
-  height: 500px;
+  margin-bottom: 70px;
+  height: 450px;
+  padding: 4%;
   border-radius: 70px;
   background-image: url(img/card.jpg);
   background-image: cover;
   opacity: 80%;
   border-width: 10px;
   border-color: white;
+}
+#paraspacing {
+  margin-top: 50px;
+}
+#cardtop {
+  margin-top: 15px;
 }
