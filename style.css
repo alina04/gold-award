@@ -23,9 +23,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* #titletext {
-  font-size: 7vw;
-} */
+#titletext {
+  font-size: 10vw;
+}
 h1 {
   font-family: "Neonderthaw", cursive;
   color: rgb(85, 27, 20);
