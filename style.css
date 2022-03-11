@@ -6,12 +6,30 @@ body {
   color: black;
   text-align: center;
   background-color: rgb(203, 153, 126);
+  /* background-image: url(img/back2.jpg);
+  background-image: cover; */
+}
+.parallax {
+  /* The image used */
+  background-image: url("img/back1.jpg");
+  background-image: cover;
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  /* Set a specific height
+  min-height: 500px; */
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h1 {
   font-family: "Neonderthaw", cursive;
+  color: rgb(85, 27, 20);
 }
 p {
   font-family: "Fauna One", serif;
+  color: black;
 }
 #introcard {
   margin-top: 110px;
@@ -21,7 +39,7 @@ p {
   border-radius: 70px;
   background-image: url(img/card.jpg);
   background-image: cover;
-  opacity: 80%;
+  /* opacity: 80%; */
   border-width: 10px;
   border-color: white;
 }
@@ -36,4 +54,8 @@ p {
 }
 #link:hover {
   color: rgb(65, 7, 0);
+}
+#homebtn {
+  background-color: rgb(85, 27, 20);
+  color: white;
 }
