@@ -1,24 +1,18 @@
 body {
   opacity: 0;
-  transition: opacity 1.8s;
+  transition: opacity 4.0s;
 }
 body {
   color: black;
   text-align: center;
-  background-color: rgb(203, 153, 126);
-  /* background-image: url(img/back2.jpg);
-  background-image: cover; */
+  background-color: rgb(203, 153, 126);/
 }
 .parallax {
-  /* The image used */
   background-image: url("img/back1.jpg");
   background-image: cover;
   display: flex;
   overflow-x: hidden;
   overflow-y: hidden;
-  /* Set a specific height
-  min-height: 500px; */
-
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -33,6 +27,9 @@ h1 {
 p {
   font-family: "Fauna One", serif;
   color: black;
+}
+a {
+  font-family: "Fauna One", serif;
 }
 #introcard {
   margin-top: 110px;
@@ -58,7 +55,13 @@ p {
 #link:hover {
   color: rgb(65, 7, 0);
 }
-#homebtn {
+#btns {
+  background-color: rgb(85, 27, 20);
+  color: white; 
+}
+#btns2 {
   background-color: rgb(85, 27, 20);
   color: white;
+  width: 250px;
+  height:
 }
