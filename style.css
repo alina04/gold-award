@@ -1,11 +1,12 @@
 body {
   opacity: 0;
-  transition: opacity 4.0s;
+  transition: opacity 4s;
 }
 body {
   color: black;
   text-align: center;
-  background-color: rgb(203, 153, 126);/
+  /* background-color: rgb(203, 153, 126); */
+  background-color: rgb(212, 162, 150);
 }
 .parallax {
   background-image: url("img/back1.jpg");
@@ -57,7 +58,7 @@ a {
 }
 #btns {
   background-color: rgb(85, 27, 20);
-  color: white; 
+  color: white;
 }
 #btns2 {
   background-color: rgb(85, 27, 20);
