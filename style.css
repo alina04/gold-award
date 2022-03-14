@@ -21,7 +21,8 @@ body {
 #titletext {
   font-size: 10vw;
 }
-h1 {
+h1,
+h3 {
   font-family: "Neonderthaw", cursive;
   color: rgb(85, 27, 20);
 }
@@ -50,18 +51,19 @@ a {
 #cardtop {
   margin-top: 15px;
 }
-#link {
-  color: rgb(85, 27, 20);
-}
-#link:hover {
-  color: rgb(65, 7, 0);
+#cardtop:hover {
+  opacity: 85%;
 }
 #btns {
   background-color: rgb(85, 27, 20);
   color: white;
+  padding: 10px;
+  border-radius: 10px;
 }
 #btns2 {
   background-color: rgb(85, 27, 20);
   color: white;
   width: 250px;
+  padding: 20px;
+  border-radius: 20px;
 }
