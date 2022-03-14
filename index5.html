@@ -20,7 +20,11 @@
     />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonymous"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Fauna+One&family=Neonderthaw&display=swap"
       rel="stylesheet"
@@ -29,7 +33,36 @@
     <link rel="stylesheet" href="style.css" />
     <title>Mindful Of Mental Health</title>
   </head>
-  <body>
+  <body onload="document.body.style.opacity='1'">
+    <div class="container-fluid">
+      <div class="row justify-content-center my-5">
+        <div class="col-2"></div>
+        <div class="col-lg-8">
+          <h1 class="display-2 fw-bold">Eating Disorders</h1>
+          <br />
+          <p>
+            An eating disorder causes people to obsess about their weight and
+            what they eat. Because of the physical nature of their defining
+            symptoms, eating disorders can cause both emotional distress and
+            significant medical complications.
+            <h3 class="display-3 fw-bold">Anorexia</h3>
+            People with anorexia avoid food, severely restrict food, or eat very 
+            small quantities of only certain foods. They may see themselves as overweight, 
+            even when they are dangerously underweight.
+            <h3 class="display-3 fw-bold">Bulimia</h3>            People with bulimia have periods of binge-eating. But afterwards, they purge, 
+            by making themselves throw up or using laxatives. They may also over-exercise 
+            or fast.
+            <h3 class="display-3 fw-bold">Binge Eating</h3>            Binge Eating is out-of-control eating. People with binge-eating disorders keep 
+            eating even after they are full. They often eat until they feel very uncomfortable. 
+            Afterward, they usually have feelings of guilt, shame, and distress.
+          </p>
+          <br />
+          <a id="btns" class="btns" href="index.html" role="button">Home</a>
+        </div>
+        <div class="col-2"></div>
+      </div>
+    </div>
+
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
